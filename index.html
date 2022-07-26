@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <!---------- Fav Icon -------------------------->
+    <link rel="shortcut icon" href="icons/fabicon-penguin.png" type="image/x-icon">
+    <!---------- FOnt Awesome Kit's  --------------->
+    <script src="https://kit.fontawesome.com/9000fbdc93.js" crossorigin="anonymous"></script>
 
     <!--Tailwind CSS CDN Link ----------------------------------->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -28,6 +32,9 @@
 
 <body>
   <header class="bg-penguin pt-16 pb-28">
+    <!----------------------------------------------------------------------------------
+                                Navigation Bar Section 
+    ----------------------------------------------------------------------------------->
     <section class="container mx-auto sm:flex items-center justify-around">
       <div class="space-y-4s">
         <h1 class="text-2xl sm:text-5xl uppercase font-bold">
@@ -179,7 +186,73 @@
       </div>
     </section>
 
+    <!----------------------------------------------------------------------------------
+                                Website Feature Section 
+    ----------------------------------------------------------------------------------->
+    <section class="container mx-auto my-28">
+      <div class="grid grid-cols-2 gap-10 p-12">
+        <!-- left side Features 1 -->
+        <div class="flex shadow-lg rounded-xl h-36 p-6">
+          <img class="pr-5" src="images/house.png" alt="">
+          <div>
+            <h5 class="font-bold text-2xl text-sectiontitlecolor">Find the perfect fit</h5>
+            <p class="text-cardtextcolor">Everybody is different, which is why we offer styles for every body.</p>
+          </div>
+        </div>
+        <!-- Right side Image-->
+          <div class="row-span-3 flex items-center">
+            <img src="images/shopping.png" alt="">
+          </div>
+
+        <!-- left side Features 2 -->
+        <div class="flex shadow-lg rounded-xl h-36 p-6">
+          <img class="pr-5" src="images/house.png" alt="">
+          <div>
+            <h5 class="font-bold text-2xl text-sectiontitlecolor">Find the perfect fit</h5>
+            <p class="text-cardtextcolor">Everybody is different, which is why we offer styles for every body.</p>
+          </div>
+        </div>
+        <!-- left side Features 3 -->
+        <div class="flex shadow-lg rounded-xl h-36 p-6">
+          <img class="pr-5" src="images/house.png" alt="">
+          <div>
+            <h5 class="font-bold text-2xl text-sectiontitlecolor">Find the perfect fit</h5>
+            <p class="text-cardtextcolor">Everybody is different, which is why we offer styles for every body.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+  <!----------------------------------------------------------------------------------
+                                Website Footer Section 
+    ----------------------------------------------------------------------------------->
+    <footer>
+      <div class="bg-slate-800 flex flex-col items-center gap-4 py-28">
+        <h1 class="text-2xl text-white font-bold">Penguin Fashion</h1>
+        <hr>
+        <div class="flex gap-10">
+            <a class="text-white" href="">Contact Us</a>
+            <a class="text-white" href="">Terms of Service</a>
+            <a class="text-white" href="">Privacy Policy</a>
+            <a class="text-white" href="">Privacy Settings </a>
+            <a class="text-white" href="">Goal App</a>
+            <a class="text-white" href="">Goal Live</a>
+        </div>
+        <hr>
+        <div class="">
+            <span class="text-white pb-3">Follow us on</span>
+            <div class="footer-social-link">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square text-white"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter-square text-white"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram-square text-white"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin text-white"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube-square text-white"></i></a>
+            </div>
+        </div>
+      </div>
+
+      
+    </footer>
 
     
 </body>
